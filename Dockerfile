@@ -10,6 +10,9 @@ COPY . .
 #Install the dependecies
 RUN npm install
 
+#Run Test case
+RUN npm run test
+
 EXPOSE 8000
 
 #Run the code
